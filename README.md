@@ -58,6 +58,22 @@ Imperfection is acceptable. Misrepresentation is not.
 - Flagged issues are not automatically disqualifying; severity and candor matter.
 - Component-based applications may receive both standalone and component verdicts.
 
+## 🏛️ Constitutional Evaluation
+
+### 1. Verdict Label: [Pass | Pass with Flags | Component Pass | Needs Revision]
+
+### 2. Grading Axes:
+* 🟢 **Authorship Integrity (Art. 2):** [100% original / AI used only for documentation & commenting / Flags: None]
+* 🟢 **Scope Discipline (Art. 3):** [Completed within 24 hours / Follows Amendment 3.1 & 3.2 for multi-file structure]
+* 🟢 **Architectural Structure (Art. 1 & 4):** [Describe OOP, state management, or modular design used]
+* 🟢 **Behavior Verification (Art. 6):** [Manual test checklist / Unit tests / Demonstration transcript included]
+* 🟢 **Reflection & Trade-offs (Art. 5):**
+  * **Design Choice:** Why this architecture?
+  * **Omissions:** What was intentionally left out?
+  * **Weakness:** What is the principal bottleneck/flaw?
+  * **Scaling Plan:** How would this scale to a distributed system?
+  * **Next Refactor:** What is the very next thing to fix?
+
 ---
 
 If you fork or adapt this framework, preserve the spirit of good-faith interpretation and proportional evaluation.
